@@ -248,3 +248,6 @@ for(i in unique(b5$V2)) {
   
   print(p)
 }
+
+# Create sessionInfo.txt
+writeLines(capture.output(sessionInfo()), "sessionInfo.txt")
